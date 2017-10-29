@@ -25,11 +25,11 @@ public:
 
 private:
 	// Helpful debug tool - which way is the tank facing?
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Turret", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Turret", meta = (AllowPrivateAccess = true))
 	class UArrowComponent* TurretDirection;
 
 	// Sprite for the turret
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Turret", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Turret", meta = (AllowPrivateAccess = true))
 	class UPaperSpriteComponent* TurretSprite;
 	
 };
